@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "moyingzhanjiang",
+      "uniqueId": "256f2b01-6997-4b38-8d43-d615b61c553a"
+    },
+    "time": 1784183426190,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1dC3EYI0Dt"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "moyingzhanjiang",
+      "uniqueId": "256f2b01-6997-4b38-8d43-d615b61c553a"
+    },
+    "time": 1784182578399,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jLFuvwGubL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "moyingzhanjiang",
+      "uniqueId": "256f2b01-6997-4b38-8d43-d615b61c553a"
+    },
+    "time": 1784181665026,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A4OjHhoEHd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "moyingzhanjiang",
+      "uniqueId": "256f2b01-6997-4b38-8d43-d615b61c553a"
+    },
+    "time": 1784180920830,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7SSe9tUuvj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "moyingzhanjiang",
+      "uniqueId": "256f2b01-6997-4b38-8d43-d615b61c553a"
+    },
+    "time": 1784180722507,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vn6RunAYXC"
+    }
+  }
+]

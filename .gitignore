@@ -1,0 +1,15 @@
+# 完整懒人包约 4.6GB，且含超过 GitHub 100MB 限制的文件，不纳入仓库。
+# 换设备继续改时，使用「落幕曲参考」里的脚本、枪械数据和模组清单。
+落幕曲懒人包/
+DLC 扩展内容/
+整合包主体  安装包/
+服务端/
+落幕曲更新日志/
+
+# 运行产生的个人数据
+*.log
+usercache.json
+usernamecache.json
+servers.dat
+servers.dat_old
+options.txt

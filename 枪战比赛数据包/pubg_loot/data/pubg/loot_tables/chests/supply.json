@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 2, "max": 4},
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:bread", "weight": 10, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:cooked_beef", "weight": 12, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:cooked_porkchop", "weight": 8, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 4}}]},
+        {"type": "minecraft:item", "name": "minecraft:baked_potato", "weight": 8, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 6}}]},
+        {"type": "minecraft:item", "name": "minecraft:golden_carrot", "weight": 6, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 4}}]},
+        {"type": "minecraft:item", "name": "minecraft:milk_bucket", "weight": 4}
+      ]
+    },
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 1, "max": 2},
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.8}],
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:potion", "weight": 8, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:healing\"}"}]},
+        {"type": "minecraft:item", "name": "minecraft:potion", "weight": 6, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:strong_healing\"}"}]},
+        {"type": "minecraft:item", "name": "minecraft:splash_potion", "weight": 5, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:strong_healing\"}"}]},
+        {"type": "minecraft:item", "name": "minecraft:potion", "weight": 5, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:regeneration\"}"}]},
+        {"type": "minecraft:item", "name": "minecraft:potion", "weight": 5, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:swiftness\"}"}]},
+        {"type": "minecraft:item", "name": "minecraft:potion", "weight": 4, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:strong_swiftness\"}"}]},
+        {"type": "minecraft:item", "name": "minecraft:potion", "weight": 4, "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:fire_resistance\"}"}]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.22}],
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:golden_apple", "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 2}}]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.03}],
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:enchanted_golden_apple"}
+      ]
+    }
+  ]
+}

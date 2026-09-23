@@ -1,0 +1,15 @@
+#Whether auto enter next wave
+rideAutoNextWave = true
+#the tick of auto enter next wave
+#Range: > 100
+autoEnterNextWaveTick = 3600
+#X offset for the raid info HUD
+#Range: -10000 ~ 10000
+hudOffsetX = 10
+#Y offset for the raid info HUD
+#Range: -10000 ~ 10000
+hudOffsetY = 0
+#Preset position for the raid info HUD
+#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+hudPosition = "TOP_LEFT"
+

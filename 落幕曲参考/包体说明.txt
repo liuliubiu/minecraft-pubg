@@ -1,0 +1,22 @@
+落幕曲 1.6.6.1 识别用包体
+这是给后续改枪战箱子用的文本资料，不是完整客户端。
+
+包含：
+- mods-list.txt：mods 目录里全部 jar 的文件名
+- tacz-gunpacks.txt：额外枪包压缩包的文件名
+- Closing Song1.6.6.1/kubejs：服务端和启动脚本、数据包（不含贴图）
+- Closing Song1.6.6.1/tacz/tacz_default_gun/data：默认枪械、弹药、配方
+- Closing Song1.6.6.1/tacz/tacz_default_gun/assets/tacz/lang：枪械中文名
+- Closing Song1.6.6.1/config：文本配置（不含模型缓存、图片、声音）
+- Closing Song1.6.6.1/defaultconfigs
+- Closing Song1.6.6.1/mods-extracted/lrtactical：军用匕首、手雷等物品定义
+
+关键模组：
+- Minecraft 1.20.1，Forge
+- tacz-1.20.1-1.1.7-hotfix2（枪械物品 tacz:modern_kinetic_gun，NBT 键 GunId / AmmoId）
+- lrtactical-1.20.1-0.3.0（近战 lrtactical:melee 键 MeleeWeaponId，投掷物 lrtactical:throwable 键 ThrowableId）
+- kubejs-forge-2001.6.5-build.16
+- lootjs-forge-1.20.1-2.12.0
+- lootr-forge-1.20-0.7.34.89
+
+枪战箱子数据包在仓库根目录的「枪战比赛数据包」。

@@ -1,0 +1,7 @@
+#Use a shader-pack-compatible structure preview renderer. Enable this if shader packs make the preview render incorrectly.
+#使用兼容光影包的建筑预览渲染方式。如果开启光影后预览建筑显示异常，请启用此项。
+shaderCompatibleStructurePreview = false
+#Render selection and preview bounding boxes as outline only. Enable this if shader packs make filled bounding boxes render incorrectly.
+#仅使用线框渲染选择框和预览框。如果光影包导致半透明包围盒显示异常，请启用此项。
+shaderCompatibleBoundingBox = false
+

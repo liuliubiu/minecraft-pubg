@@ -1,0 +1,15 @@
+{
+  "name": "celestial_mooncake:ritual/ringhenge_altar",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "celestial_mooncake:ritual/ringhenge_altar",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

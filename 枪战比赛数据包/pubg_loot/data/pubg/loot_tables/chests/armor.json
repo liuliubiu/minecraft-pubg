@@ -1,0 +1,165 @@
+{
+    "pools":  [
+                  {
+                      "entries":  [
+                                      {
+                                          "weight":  16,
+                                          "name":  "minecraft:leather_helmet",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  10,
+                                          "name":  "minecraft:chainmail_helmet",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  30,
+                                          "name":  "minecraft:iron_helmet",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  8,
+                                          "name":  "minecraft:diamond_helmet",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  1,
+                                          "name":  "minecraft:netherite_helmet",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.7
+                                         }
+                                     ]
+                  },
+                  {
+                      "entries":  [
+                                      {
+                                          "weight":  16,
+                                          "name":  "minecraft:leather_chestplate",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  10,
+                                          "name":  "minecraft:chainmail_chestplate",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  30,
+                                          "name":  "minecraft:iron_chestplate",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  8,
+                                          "name":  "minecraft:diamond_chestplate",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  1,
+                                          "name":  "minecraft:netherite_chestplate",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.7
+                                         }
+                                     ]
+                  },
+                  {
+                      "entries":  [
+                                      {
+                                          "weight":  16,
+                                          "name":  "minecraft:leather_leggings",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  10,
+                                          "name":  "minecraft:chainmail_leggings",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  30,
+                                          "name":  "minecraft:iron_leggings",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  8,
+                                          "name":  "minecraft:diamond_leggings",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  1,
+                                          "name":  "minecraft:netherite_leggings",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.7
+                                         }
+                                     ]
+                  },
+                  {
+                      "entries":  [
+                                      {
+                                          "weight":  16,
+                                          "name":  "minecraft:leather_boots",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  10,
+                                          "name":  "minecraft:chainmail_boots",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  30,
+                                          "name":  "minecraft:iron_boots",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  8,
+                                          "name":  "minecraft:diamond_boots",
+                                          "type":  "minecraft:item"
+                                      },
+                                      {
+                                          "weight":  1,
+                                          "name":  "minecraft:netherite_boots",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.7
+                                         }
+                                     ]
+                  },
+                  {
+                      "entries":  [
+                                      {
+                                          "weight":  1,
+                                          "name":  "minecraft:shield",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.22
+                                         }
+                                     ]
+                  }
+              ],
+    "type":  "minecraft:chest"
+}

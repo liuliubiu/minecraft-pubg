@@ -1,0 +1,6 @@
+#Number of maid attribute lines shown on one page.
+#Range: 1 ~ 7
+attributeLinePerPage = 7
+#Favorited maid attributes stored as registry ids.
+favoriteAttributes = []
+

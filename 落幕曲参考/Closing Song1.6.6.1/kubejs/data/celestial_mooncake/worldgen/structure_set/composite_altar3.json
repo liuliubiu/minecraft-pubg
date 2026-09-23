@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "celestial_mooncake:composite_altar3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 648905794,
+    "spacing": 130,
+    "separation": 120,
+    "type": "minecraft:random_spread"
+  }
+}

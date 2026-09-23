@@ -1,0 +1,8 @@
+
+["Ascendants Settings"]
+	#Should the Reaper boss play its music theme upon spawning?
+	enableBossMusic = true
+	#Sets the volume of the boss music.
+	#Default is 1.0 | Change value between 0.0 -> 2.0, the higher the value, the louder the music.
+	bossMusicVolume = 1.0
+

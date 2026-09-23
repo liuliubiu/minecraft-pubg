@@ -1,0 +1,5 @@
+#Show all registered attributes owned by the maid, not only the default curated list.
+generateAllAttributes = false
+#When generateAllAttributes is enabled, hide attributes that still match their default values and have no modifiers.
+generateAllAttributesHideUnchanged = false
+

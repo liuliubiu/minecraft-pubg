@@ -1,0 +1,55 @@
+落幕曲 1.6.6.1 枪战比赛箱子
+================================
+
+这是数据包，不用再装新模组。枪用的是整合包里的永恒枪械 TaCZ，刀和手雷用的是绿葡萄战术装备。
+
+安装
+1. 面板文件管理打开存档文件夹（一般叫 world）。
+2. 把 pubg_loot 这个文件夹放进存档的 datapacks 里。
+   最终路径类似：world/datapacks/pubg_loot/pack.mcmeta
+3. 把「服务端kubejs/server_scripts/pubg_loot_cleanup.js」上传到服务器的 kubejs/server_scripts/。
+   这一步是为了别让整合包原有脚本往比赛箱子里塞拔刀剑材料和火药。
+4. 服务器控制台执行：reload
+5. 进游戏执行：/datapack list
+   列表里要能看到 pubg_loot。
+
+四种箱子
+- 橙色潜影盒 弹药箱：2 到 4 组子弹，55% 再出 1 个投掷物
+- 红色潜影盒 武器箱：必出 1 件枪或近战
+- 蓝色潜影盒 装备箱：头、胸、腿、脚各有 70% 出一件，22% 出盾
+- 绿色潜影盒 物资箱：食物，80% 出药水，22% 金苹果，3% 附魔金苹果
+
+放置（OP，站在箱子要出现的那一格）
+/function pubg:place/ammo
+/function pubg:place/weapon
+/function pubg:place/armor
+/function pubg:place/supply
+
+把已经放好的箱子、木桶、潜影盒改成比赛箱（站在它上面）
+/function pubg:bind/ammo
+/function pubg:bind/weapon
+/function pubg:bind/armor
+/function pubg:bind/supply
+
+每局开始前重置（清空并重新上锁，玩家下次打开才重新随机）
+/function pubg:reset
+
+先抽一次看看物品对不对
+/function pubg:preview
+
+拆掉全部比赛箱
+/function pubg:clear
+
+规则
+- 箱子在第一次被打开时才掷骰，和地牢箱一样。开过之后不会自己再刷，避免无限摸箱。
+- 谁先打开谁拿走，不是每人一份。
+- 比赛时把玩家调成冒险模式，这样潜影盒拆不走，但能打开。
+- 相邻的普通箱子会合成大箱子，战利品会乱。新放的用潜影盒，不会合成。
+- 改概率：打开 data/pubg/loot_tables/chests/ 里对应的 json。
+  weight 越大越容易出。同一池子里的概率 = 该物品 weight / 全部 weight 之和。
+  random_chance 的 chance 是 0 到 1，0.55 就是 55%。
+  改完执行 reload。
+
+武器箱大致概率（权重合计 226）
+手枪约 34%，冲锋枪约 16%，步枪约 17%，霰弹约 10%，狙击约 6%，近战约 18%。
+加特林、RPG、巴雷特没有放进普通武器箱。想加的话，照 weapon.json 里现有枪的写法再添一条，把 weight 设小，例如 1。
