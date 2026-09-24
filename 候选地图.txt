@@ -1,0 +1,44 @@
+落幕曲枪战比赛：候选地图
+查询日期：2026-09-24
+服务器版本：Minecraft Java 1.20.1 Forge
+
+筛选条件
+- 必须是 Java 版世界存档。基岩版（版本号常写成 26.x）不能放进这台服务器。
+- 优先 1.20.1。1.17、1.18、1.19 的原版方块图可以在 1.20.1 里打开并自动升级。1.20.4、1.21 及更新的存档不能降级读入。
+- 建筑使用原版方块。缺模组方块的图会变成空气或问号方块。
+- 有房子和掩体，范围大约几百格，适合放比赛用的潜影盒。
+- 下载后先在本地「落幕曲」单人世界里打开。能进、房子还在，再换到面板服的 world。
+
+1. Golden Gorge
+地址：https://www.minecraftmaps.com/47977-golden-gorge
+作者：DoctorChosen
+版本：Java 1.17.1（1.20.1 打开时会自动升级）
+规模：约 300×300，适合 4 到 16 人
+内容：西部小镇饥饿游戏图，两个高台出生点，自带缩圈。
+注意：图里原有箱子和鞘翅。换上比赛箱之前先拆掉这些箱子，并清掉鞘翅。文件约 47.2 MB。
+
+2. Minecraft 1.20.1 City Map V2
+地址：https://www.planetminecraft.com/project/city-map-1-20-1-minecraft-java-edition/
+作者：celestialdarkness
+版本：Java 1.20.1
+内容：城区。作者说明可以拿去做别的用途，并要求视频里署名。
+注意：作者写明还没建完。掩体够不够要进图看。
+
+3. The Town of Gravelton
+地址：https://1minecraft.net/the-town-of-gravelton-map-1211-1201-a-quiet-town-beside-the-sea/
+作者：SnappNote
+版本：页面同时提供 1.21.1 和 1.20.1，只下载标明 1.20.1 的包
+规模：海滨小镇，100 多栋有内饰的房子
+内容：商店、餐厅、公寓、住宅，掩体多。
+注意：镇比较大，一局移动时间长。这是转载页，解压后要确认文件夹里有 level.dat，并先在 1.20.1 单人档里打开。
+
+不适合直接用的图
+- Block City、reBlock City、Swagtropolis：基岩版。
+- LOS BLOCKS、War Industrie：Java，但要求 1.20.4 或更高，1.20.1 读不了。
+- City BoxPvP：要求 1.21.1 或更高。
+
+换到面板服
+1. 停服。把现有 world 改名为 world-backup。
+2. 上传地图文件夹，改名为 server.properties 里 level-name 的名字，一般是 world。
+3. 把 world-backup/datapacks/pubg_loot 拷回新世界的 datapacks。
+4. 开服后设置出生点，再用 /function pubg:place/... 放比赛箱。
